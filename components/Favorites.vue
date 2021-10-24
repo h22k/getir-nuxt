@@ -1,5 +1,5 @@
 <template>
-<div>favorites</div>
+<div class="mt-8">favorites</div>
 </template>
 
 <script>

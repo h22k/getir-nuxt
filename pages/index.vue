@@ -3,6 +3,8 @@
     <HeaderSection/>
     <HeroSection/>
     <Categories/>
+    <Campaigns/>
+    <Favorites/>
   </div>
 </template>
 

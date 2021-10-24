@@ -13,5 +13,7 @@ export default {
 </script>
 
 <style scoped>
-
+.category-item {
+  @apply flex justify-center cursor-pointer items-center flex-col max-w-full pt-3 pb-4 mb-4 transition-colors hover:bg-getir/10
+}
 </style>

@@ -1,6 +1,15 @@
 import Vue from 'vue'
-import VueAwesomeSwiper from 'vue-awesome-swiper'
+// Swiper 6.x
+import { Swiper as SwiperClass, Pagination, Autoplay } from 'swiper/core'
 
-// import style (>= Swiper 6.x)
+import getAwesomeSwiper from 'vue-awesome-swiper/dist/exporter'
+
+// Swiper modules
+SwiperClass.use([Pagination, Autoplay])
+
+// -------------------------------------------------
+
 import 'swiper/swiper-bundle.css'
-Vue.use(VueAwesomeSwiper, /* { default options with global component } */)
+
+// Global use
+Vue.use(getAwesomeSwiper(SwiperClass))
