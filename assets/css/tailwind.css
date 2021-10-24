@@ -9,6 +9,13 @@
     font-family: 'Open Sans', sans-serif;
     @apply antialiased bg-gray-50
   }
+  html::-webkit-scrollbar {
+    display: none;
+  }
+  html {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }
 
 @layer components {

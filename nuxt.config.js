@@ -25,7 +25,8 @@ export default {
   plugins: [
     {src: '~/plugins/vue-awesome'},
     {src: '~/plugins/vue-swiper'},
-    {src: '~/plugins/vue-flag'}
+    {src: '~/plugins/vue-flag'},
+    {src: '~/plugins/currency' }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
