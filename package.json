@@ -12,11 +12,13 @@
   "dependencies": {
     "core-js": "^3.15.1",
     "global": "^4.4.0",
+    "lodash": "^4.17.21",
     "nuxt": "^2.15.7",
     "sass": "^1.43.3",
     "swiper": "6",
     "vue-awesome": "^4.3.1",
-    "vue-awesome-swiper": "^4.1.1"
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-country-flag": "^2.2.0"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.8",

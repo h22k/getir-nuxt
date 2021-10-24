@@ -2,6 +2,7 @@
   <div>
     <HeaderSection/>
     <HeroSection/>
+    <Categories/>
   </div>
 </template>
 

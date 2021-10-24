@@ -4,15 +4,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html, body {
+    font-family: 'Open Sans', sans-serif;
+    @apply antialiased bg-gray-50
+  }
+}
+
 @layer components {
   html, body, #__nuxt, #__layout {
     @apply h-full w-full
   }
-}
-
-@layer base {
-  html, body {
-    font-family: 'Open Sans', sans-serif;
-    @apply antialiased
+  .category-item {
+    @apply flex justify-center cursor-pointer items-center flex-col max-w-full pt-3 pb-4 mb-4 transition-colors hover:bg-getir/10
   }
 }
+
