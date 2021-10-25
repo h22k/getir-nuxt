@@ -1,5 +1,7 @@
 <template>
-<div>footer section</div>
+<div class="root-div bg-white flex justify-center items-center">
+  footer :/
+</div>
 </template>
 
 <script>

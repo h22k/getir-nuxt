@@ -7,6 +7,7 @@
     <Favorites/>
     <MobileApp/>
     <Cards/>
+    <FooterSection/>
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="root-div mt-8">
+  <div class="root-div mt-8 mb-[300px]">
     <div class="grid grid-cols-3 gap-x-4">
       <CardItem v-for="card in 3" :item="item" :key="card"/>
     </div>
