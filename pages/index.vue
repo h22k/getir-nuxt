@@ -5,6 +5,8 @@
     <Categories/>
     <Campaigns/>
     <Favorites/>
+    <MobileApp/>
+    <Cards/>
   </div>
 </template>
 
