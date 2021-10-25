@@ -11,7 +11,7 @@
         </swiper>
       </client-only>
       <div class="absolute inset-0 w-full h-[500px] bg-gradient-to-r from-getir/90 to-transparent z-10"></div>
-      <div class="max-w-screen-lg min-w-[1200px] mx-auto flex justify-between items-center absolute top-0 left-1/2 -translate-x-1/2 h-full z-20">
+      <div class="root-div flex justify-between items-center absolute top-0 left-1/2 -translate-x-1/2 h-full z-20">
         <div>
           <img src="https://getir.com/_next/static/images/bimutluluk-b3a7fcb14fc9a9c09b60d7dc9b1b8fd6.svg" alt="">
           <h3 class="text-white max-w-[350px] text-4xl font-bold leading-10 mt-8 break-words">

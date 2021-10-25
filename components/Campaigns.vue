@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-8 max-w-screen-lg min-w-[1200px] mx-auto">
+  <div class="root-div mt-8">
     <Title title="Kampanyalar"/>
     <client-only>
       <swiper ref="mySwiper" :options="swiperOptions">

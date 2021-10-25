@@ -22,5 +22,8 @@
   html, body, #__nuxt, #__layout {
     @apply h-full w-full
   }
+  .root-div {
+    @apply max-w-screen-lg min-w-[1200px] mx-auto
+  }
 }
 

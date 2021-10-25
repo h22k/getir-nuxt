@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-8 max-w-screen-lg min-w-[1200px] rounded-lg mx-auto bg-url min-h-[312px]">
+  <div class="mt-8 root-div rounded-lg bg-url min-h-[312px]">
     <div class="flex justify-between pl-3 min-h-[312px] items-center z-20">
       <div class="flex-1 max-w-1/2 flex flex-col gap-y-3 pl-10">
         <div class="text-white">

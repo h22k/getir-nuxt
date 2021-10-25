@@ -1,5 +1,5 @@
 <template>
-<div class="mt-8 max-w-screen-lg min-w-[1200px] mx-auto">
+<div class="root-div mt-8">
   <Title title="Favoriler"/>
   <div class="grid bg-white grid-cols-8 divide-gray-50 divide-y-2 divide-x-2">
     <Product v-for="product in products" :key="product.id" :product="product"/>
