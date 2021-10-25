@@ -10,4 +10,4 @@ $ yarn install
 $ yarn dev
 ```
 
-#### Not using HTTP Requests, just basic view.
+#### Not using HTTP Requests, just basic view, even not responsive. Maybe later be responsive.
